@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import { Navbar } from './layouts/NavbarAndFooter/Navbar';
 import { Footer } from './layouts/NavbarAndFooter/Footer';
-import { ExploreTopBooks } from './layouts/HomePage/ExploreTopBooks';
+import { ExploreTopBooks } from './layouts/HomePage/components/ExploreTopBooks';
 import { Carousel } from './layouts/HomePage/Carousel';
-import { Heros } from './layouts/HomePage/Heros';
-import { LibaryServices } from './layouts/HomePage/LibraryServices';
+import { Heros } from './layouts/HomePage/components/Heros';
+import { LibaryServices } from './layouts/HomePage/components/LibraryServices';
 
 
 function App() {
